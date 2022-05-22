@@ -1,3 +1,7 @@
+.jumbotron {
+    background-color: white;
+}
+
 .opening_animation {
     background-color: cyan;
     position: absolute;
@@ -18,8 +22,8 @@
     top: 30%;
     left: -150px;
     width: 75px;
-    animation: cloud 7s infinite;
-    -webkit-animation: cloud 7s infinite;
+    animation: cloud 7s infinite ease-in-out;
+    -webkit-animation: cloud 7s infinite ease-in-out;
 }
 
 .clouds img:nth-child(1) {
@@ -38,6 +42,11 @@
     width: 90px;
     animation-direction: alternate-reverse;
 }
+.clouds img:nth-child(4) {
+    animation-delay: 5.5s;
+    width: 83px;
+    animation-direction: reverse;
+}
 
 @keyframes cloud {
     0% {
@@ -47,19 +56,12 @@
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
 }
-    50% {
+    40% {
         transform: translateX(60vh);
         -webkit-transform: translateX(60vh);
         -moz-transform: translateX(60vh);
         -ms-transform: translateX(60vh);
         -o-transform: translateX(60vh);
-}
-    70% {
-        transform: translateX(80vh);
-        -webkit-transform: translateX(80vh);
-        -moz-transform: translateX(80vh);
-        -ms-transform: translateX(80vh);
-        -o-transform: translateX(80vh);
 }
 
     100% {
