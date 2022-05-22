@@ -9,27 +9,34 @@
     z-index: 2;
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
 .clouds img {
+    position: absolute;
+    top: 30%;
+    left: -150px;
     width: 75px;
-    animation: cloud 7s infinite ease-in-out;
-    -webkit-animation: cloud 7s infinite ease-in-out;
+    animation: cloud 7s infinite;
+    -webkit-animation: cloud 7s infinite;
 }
 
 .clouds img:nth-child(1) {
-    animation-delay: 2s;
+    animation-delay: 3s;
+    width: 100px;
+    animation-direction: alternate;
 }
 
 .clouds img:nth-child(2) {
     animation-delay: 1s;
+    animation-direction: normal;
 }
 
 .clouds img:nth-child(3) {
-    animation-delay: 3s;
+    animation-delay: 4s;
+    width: 90px;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes cloud {
@@ -40,6 +47,21 @@
         -ms-transform: translateX(0);
         -o-transform: translateX(0);
 }
+    50% {
+        transform: translateX(60vh);
+        -webkit-transform: translateX(60vh);
+        -moz-transform: translateX(60vh);
+        -ms-transform: translateX(60vh);
+        -o-transform: translateX(60vh);
+}
+    70% {
+        transform: translateX(80vh);
+        -webkit-transform: translateX(80vh);
+        -moz-transform: translateX(80vh);
+        -ms-transform: translateX(80vh);
+        -o-transform: translateX(80vh);
+}
+
     100% {
         transform: translateX(100vh);
         -webkit-transform: translateX(100vh);
