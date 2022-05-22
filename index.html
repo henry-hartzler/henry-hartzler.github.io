@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/opening_animation.css" type="text/css">
 
     <title>Henry Hartzler, Web Developer</title>
   </head>
@@ -24,10 +25,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
@@ -39,19 +43,41 @@
 
   <main>
     <div class="container">
+      <!--Might delete this until 'HERE' to make the opening animation bigger-->
       <div class="row">
         <div class="col jumbotron">
-          <h1>Henry Hartzler</h1>
-          <h2>Web Developer</h2>
+          <div class="d-flex justify-content-center">
+            <h1>Henry Hartzler</h1>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-center">
+            <h2>Web Developer</h2>
+          </div>
         </div>
+        <!--HERE-->
         <div class="col">
-          Add CSS animation here
+          <!--Opening mountain animation sequence-->
+          <!--Mountains are static, clouds go across at different speeds in a linear fashion, and the sun goes up and down behind, aligned with the bg color fading according to time of day-->
+          <div class="opening_animation">
+            <div class="mountains">
+              <img src="./resources/images/blue_mountains_static.png" alt="blue mountains" class="img-fluid">
+            </div>
+            <div class="clouds">
+              <img src="./resources/images/cloud_dynamic.png" class="img-fluid" alt="cloud">
+              <img src="./resources/images/cloud_dynamic.png" class="img-fluid" alt="cloud">
+              <img src="./resources/images/cloud_dynamic.png" class="img-fluid" alt="cloud">
+              <img src="./resources/images/cloud_dynamic.png" class="img-fluid" alt="cloud">
+            </div>
+            <div class="sun">
+              <img src="./resources/images/sun_dynamic.png" alt="sun" class="img-fluid">
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </main>
   <section>
-    
+
   </section>
 
     <!-- Optional JavaScript -->
