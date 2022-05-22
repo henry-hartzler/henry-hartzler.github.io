@@ -14,6 +14,21 @@ nav {
     background-color: cyan;
     position: relative;
     z-index: 0;
+    animation: sky 5s infinite alternate;
+    -webkit-animation: sky 5s infinite alternate;
+}
+
+@keyframes sky {
+    0% {
+        background-color: midnightblue;
+    }
+    100% {
+        background-color: cyan;
+    }
+}
+
+.opening_animation:hover, cloud:hover, sun:hover {
+    animation-play-state: paused;
 }
 
 .mountains {
