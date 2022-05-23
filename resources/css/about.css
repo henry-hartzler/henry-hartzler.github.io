@@ -16,10 +16,21 @@ section {
     min-height: fit-content;
 }
 
-.container {
+/* For use to visualize where containers, columns, and rows are
+ .container {
     border: black solid 1px;
 }
 
 .col, .col-5, .col-7 {
     border: red solid 1px;
+}
+*/
+
+h1, h2, h4, h5 {
+    text-align: center;
+    margin: 20px;
+}
+
+h4, h5 {
+    line-height: 2em;
 }
