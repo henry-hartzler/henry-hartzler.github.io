@@ -1,3 +1,40 @@
 section {
     background-color: cyan;
 }
+
+#profile_pic {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 20px;
+    width: 100%;
+ 
+}
+
+.about {
+    min-height: fit-content;
+}
+
+/* For use to visualize where containers, columns, and rows are
+ .container {
+    border: black solid 1px;
+}
+
+.col, .col-5, .col-7 {
+    border: red solid 1px;
+}
+*/
+
+h1, h2, h4, h5 {
+    text-align: center;
+}
+
+h4, h5 {
+    line-height: 2em;
+}
+
+.col-7 {
+    padding: 20px;
+}
