@@ -10,9 +10,16 @@ section {
     -o-border-radius: 50%;
     margin: 20px;
     width: 100%;
-    max-width: 500px;
 }
 
-.about_me {
-    line-height: 2;
+.about {
+    min-height: fit-content;
+}
+
+.container {
+    border: black solid 1px;
+}
+
+.col, .col-5, .col-7 {
+    border: red solid 1px;
 }
