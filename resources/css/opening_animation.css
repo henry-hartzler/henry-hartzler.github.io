@@ -122,19 +122,19 @@ nav {
 
 
 @keyframes sun {
-    0% {
+    from {
         transform: translateY(0);
         -webkit-transform: translateY(0);
         -moz-transform: translateY(0);
         -ms-transform: translateY(0);
         -o-transform: translateY(0);
-}
-    100% {
-        transform: translateY(-20vh);
-        -webkit-transform: translateY(-20vh);
-        -moz-transform: translateY(-20vh);
-        -ms-transform: translateY(-20vh);
-        -o-transform: translateY(-20vh);
+} 
+    to {
+        transform: translateY(-21vh);
+        -webkit-transform: translateY(-21vh);
+        -moz-transform: translateY(-21vh);
+        -ms-transform: translateY(-21vh);
+        -o-transform: translateY(-21vh);
 }
 } 
 

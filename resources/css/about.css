@@ -10,6 +10,7 @@ section {
     -o-border-radius: 50%;
     margin: 20px;
     width: 100%;
+ 
 }
 
 .about {
@@ -28,9 +29,12 @@ section {
 
 h1, h2, h4, h5 {
     text-align: center;
-    margin: 20px;
 }
 
 h4, h5 {
     line-height: 2em;
+}
+
+.col-7 {
+    padding: 20px;
 }
