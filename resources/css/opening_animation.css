@@ -159,40 +159,10 @@ nav {
   }
 
   @media only screen and (max-width: 763px), (orientation: portrait) {
-    .sun img {
-      max-width: 55px;
-    }
-
-    .clouds img:nth-child(1) {
-        width: 55px;
-    }
-    .clouds img:nth-child(2) {
-        max-width: 41.25px;
-    }
-    .clouds img:nth-child(3) {
-        max-width: 49.5px;
-    }
-    .clouds img:nth-child(4) {
-        max-width: 45.65px;
-    }
-  }
-
-@media only screen and (min-width: 390px) and (max-width: 455px), (orientation: portrait) {
-    .sun img {
-      max-width: 40px;
-    }
-
-    .clouds img:nth-child(1) {
-        width: 40px;
-    }
-    .clouds img:nth-child(2) {
-        max-width: 30px;
-    }
-    .clouds img:nth-child(3) {
-        max-width: 36px;
-    }
-    .clouds img:nth-child(4) {
-        max-width: 33.2px;
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
   }
 
