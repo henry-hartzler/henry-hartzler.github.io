@@ -1,7 +1,7 @@
 # Henry Hartzler, Web Developer
 
 ## Portfolio Website
-+ This website showcases the my keen attention to detail and expertise in CSS animations and responsive web design.
++ This website showcases my keen attention to detail, expertise in CSS animations, and responsive web design.
 
 ## What I'm working on:
 + Currently, I am learning React.js and will use React/Redux to create a social media app clone.
