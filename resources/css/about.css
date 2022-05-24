@@ -1,5 +1,5 @@
 section {
-    background-color: cyan;
+    background-color: darkgreen;
     padding-bottom: 15px;
     clip-path: 
         polygon(
@@ -8,6 +8,7 @@ section {
             100% calc(100% - 15px),
             0% 100%
         );
+    color: whitesmoke;
 }
 
 #profile_pic {
@@ -35,6 +36,7 @@ section {
 }
 */
 
+
 h1, h2, h4, h5 {
     text-align: center;
 }
@@ -45,4 +47,8 @@ h4, h5 {
 
 .col-7 {
     padding: 20px;
+}
+
+hr {
+    background-color: whitesmoke;
 }
