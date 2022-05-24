@@ -1,0 +1,28 @@
+#portfolio-header {
+    padding: 20px 0px 5px;
+}
+
+.r1, .r2 {
+    padding-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
