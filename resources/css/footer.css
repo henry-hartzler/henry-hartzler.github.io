@@ -1,0 +1,28 @@
+.footer-container {
+    background-color: #E9ECEF;
+    padding: 10px;
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+.contact-link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    -moz-text-decoration-style: wavy;
+    text-decoration-color: cornflowerblue;
+    -moz-text-decoration-color: cornflowerblue;
+}
+
+.contact-link:hover {
+    color: white;
+    background-color: #0069D9;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer-logos img {
+    margin: 0 30px;
+}
