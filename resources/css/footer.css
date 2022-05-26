@@ -1,3 +1,8 @@
+.footer-container {
+    background-color: #E9ECEF;
+    padding: 10px;
+}
+
 .footer-contact {
     text-align: center;
 }
@@ -13,7 +18,7 @@
 
 .contact-link:hover {
     color: white;
-    background-color: blue;
+    background-color: #0069D9;
     text-decoration: none;
     padding: 5px;
 }

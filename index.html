@@ -28,23 +28,23 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
   <!-- End of navbar component -->
 
-  <main>
+  <main id="home">
     <div class="container">
       <!--Might delete this until 'HERE' to make the opening animation bigger-->
       <div class="row">
@@ -79,7 +79,7 @@
       </div>
     </div>
   </main>
-  <section>
+  <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-5">
@@ -96,14 +96,13 @@
           </h4>
           <hr>
           <h5>
-            Outside of work, you can find me projecting my latest boulder in the granite paradise of Little Cottonwood Canyon,
-            driving down to Moab to ride some slickrock, or hunting for fresh powder on my splitboard.
+            Outside of work, you can find me climbing in Little Cottonwood Canyon, biking in Moab, or out skiing on a powder day.
           </h5>
         </div>
       </div>
     </div>
   </section>
-  <article>
+  <article id="portfolio">
     <div class="container">
       <h2 id="portfolio-header" class="display-4">PORTFOLIO</h2>
       <hr>
@@ -113,7 +112,7 @@
           <div class="card-body">
             <h5 class="card-title">Film Finder</h5>
             <p class="card-text">Discover the latest films sorted by genre using JavaScript to make requests to The Movie Database API.</p>
-            <a href="#" class="btn btn-primary">View on GitHub</a>
+            <a href="https://github.com/henry-hartzler/film_finder" class="btn btn-primary">View on GitHub</a>
           </div>
         </div>
         <div class="card">
@@ -161,17 +160,16 @@
       </div>
     </div>
   </article>
-  <footer>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+  <footer id="contact">
+      <div class="container footer-container">
         <h2 class="display-4">Looking to work with me?</h2>
         <p class="lead d-flex justify-content-center">Send me a message and&nbsp <span><a class="contact-link" href="www.linkedin.com/in/henry-hartzler-20498023b">let's chat</a></span>.</p>
         <div class="footer-logos d-flex justify-content-center">
-          <img src="./resources/images/github-logo.webp" alt="github logo" width="70px">
-          <img src="./resources/images/linkedin-logo.png" alt="linkedin logo" width="70px">
+          <a href="https://github.com/henry-hartzler"><img src="./resources/images/github-logo.webp" alt="github logo" width="70px"></a>
+          <a href=""><img src="./resources/images/linkedin-logo.png" alt="linkedin logo" width="70px"></a>
+          <a href="mailto: hartzler.henry@gmail.com"><img src="./resources/images/gmail-logo.png" alt="gmail logo" width="70px"></a>
         </div>
       </div>
-    </div>
   </footer>
 
     <!-- Optional JavaScript -->
