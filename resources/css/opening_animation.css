@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     z-index: 5;
 }
@@ -11,7 +15,7 @@ nav {
 }
 
 main {
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 .jumbotron {
@@ -85,7 +89,8 @@ main {
 }
 .clouds img:nth-child(4) {
     animation-delay: 5.5s;
-    width: 83px;
+    max-width: 83px;
+    width: 100%;
     animation-direction: reverse;
 }
 
@@ -143,7 +148,14 @@ main {
 }
 } 
 
-  @media only screen and (max-width: 1200px), (orientation: portrait) {
+@media only screen and (orientation: portrait) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+}
+  @media only screen and (max-width: 1200px) and (min-width: 993px), (orientation: portrait) {
     .row {
         flex-direction: column;
         justify-content: center;
@@ -151,21 +163,46 @@ main {
     }
 
     .sun img {
-        max-width: 110px;
+        max-width: 150px;
       }
   
       .clouds img:nth-child(1) {
-          width: 130px;
+          max-width: 114px;
       }
       .clouds img:nth-child(2) {
-          max-width: 100px;
+          max-width: 150px;
       }
       .clouds img:nth-child(3) {
-          max-width: 120px;
+          max-width: 135px;
       }
       .clouds img:nth-child(4) {
-          max-width: 105px;
+          max-width: 125px;
       }
+
+      @keyframes cloud {
+        0% {
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+        40% {
+            transform: translateX(90vh);
+            -webkit-transform: translateX(90vh);
+            -moz-transform: translateX(90vh);
+            -ms-transform: translateX(90vh);
+            -o-transform: translateX(90vh);
+        }
+    
+        100% {
+            transform: translateX(150vh);
+            -webkit-transform: translateX(150vh);
+            -moz-transform: translateX(150vh);
+            -ms-transform: translateX(150vh);
+            -o-transform: translateX(150vh);
+        }
+    }
 
     @keyframes sun {
         from {
@@ -181,11 +218,16 @@ main {
             -moz-transform: translateY(-37vh);
             -ms-transform: translateY(-37vh);
             -o-transform: translateY(-37vh);
-}
+        }
     } 
   }
 
-  @media only screen and (max-width: 992px), (orientation: portrait) {
+  @media only screen and (max-width: 992px) and (min-width: 896px), (orientation: portrait) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
 
     .sun img {
         max-width: 110px;
@@ -213,36 +255,172 @@ main {
             -o-transform: translateY(0);
     } 
         to {
-            transform: translateY(-21vh);
-            -webkit-transform: translateY(-21vh);
-            -moz-transform: translateY(-21vh);
-            -ms-transform: translateY(-21vh);
-            -o-transform: translateY(-21vh);
-}
+            transform: translateY(-29vh);
+            -webkit-transform: translateY(-29vh);
+            -moz-transform: translateY(-29vh);
+            -ms-transform: translateY(-29vh);
+            -o-transform: translateY(-29vh);
+        }
     } 
   }
 
-  @media only screen and (max-width: 760px), (orientation: portrait) {
+  @media only screen and (max-width: 895px) and (min-width: 768px), (orientation: portrait) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
     .sun img {
-      max-width: 70px;
+        max-width: 110px;
+      }
+  
+      .clouds img:nth-child(1) {
+          width: 130px;
+      }
+      .clouds img:nth-child(2) {
+          max-width: 100px;
+      }
+      .clouds img:nth-child(3) {
+          max-width: 120px;
+      }
+      .clouds img:nth-child(4) {
+          max-width: 105px;
+      }
+
+    @keyframes sun {
+        from {
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+        } 
+        to {
+            transform: translateY(-29vh);
+            -webkit-transform: translateY(-29vh);
+            -moz-transform: translateY(-29vh);
+            -ms-transform: translateY(-29vh);
+            -o-transform: translateY(-29vh);
+        }   
+    } 
+    @keyframes cloud {
+        0% {
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+        40% {
+            transform: translateX(80vh);
+            -webkit-transform: translateX(75vh);
+            -moz-transform: translateX(80vh);
+            -ms-transform: translateX(80vh);
+            -o-transform: translateX(80vh);
+}
+    
+        100% {
+            transform: translateX(130vh);
+            -webkit-transform: translateX(130vh);
+            -moz-transform: translateX(130vh);
+            -ms-transform: translateX(130vh);
+            -o-transform: translateX(130vh);
+}
+    }
+}
+
+  @media only screen and (max-width: 767px) and (min-width: 471px), (orientation: portrait) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .sun img {
+      max-width: 100px;
     }
 
     .clouds img:nth-child(1) {
-        width: 70px;
+        width: 90px;
     }
     .clouds img:nth-child(2) {
-        max-width: 52.5px;
+        max-width: 67px;
     }
     .clouds img:nth-child(3) {
-        max-width: 63px;
+        max-width: 81px;
     }
     .clouds img:nth-child(4) {
-        max-width: 58.1px;
+        max-width: 74px;
     }
+
+    @keyframes sun {
+        from {
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+        } 
+        to {
+            transform: translateY(-29vh);
+            -webkit-transform: translateY(-29vh);
+            -moz-transform: translateY(-29vh);
+            -ms-transform: translateY(-29vh);
+            -o-transform: translateY(-29vh);
+}   
+    } 
 
   }
 
-  @media only screen and (max-width: 470px), (orientation: portrait) {
+  @media only screen and (max-width: 470px) and (min-width: 0px), (orientation: portrait) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .sun img {
+      max-width: 75px;
+    }
+
+    .clouds img:nth-child(1) {
+        width: 75px;
+    }
+    .clouds img:nth-child(2) {
+        max-width: 56px;
+    }
+    .clouds img:nth-child(3) {
+        max-width: 67px;
+    }
+    .clouds img:nth-child(4) {
+        max-width: 62px;
+    }
+
+    @keyframes cloud {
+        0% {
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+        40% {
+            transform: translateX(60vh);
+            -webkit-transform: translateX(50vh);
+            -moz-transform: translateX(60vh);
+            -ms-transform: translateX(60vh);
+            -o-transform: translateX(60vh);
+}
+    
+        100% {
+            transform: translateX(90vh);
+            -webkit-transform: translateX(90vh);
+            -moz-transform: translateX(90vh);
+            -ms-transform: translateX(90vh);
+            -o-transform: translateX(90vh);
+}
+    }
 
     @keyframes sun {
         from {
@@ -258,7 +436,7 @@ main {
             -moz-transform: translateY(-12vh);
             -ms-transform: translateY(-12vh);
             -o-transform: translateY(-12vh);
-}
+        }   
     } 
   }
 
