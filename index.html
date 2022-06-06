@@ -48,7 +48,7 @@
     <div class="container">
       <!--Might delete this until 'HERE' to make the opening animation bigger-->
       <div class="row">
-        <div class="col jumbotron">
+        <div class="col jumbotron mt-5 my-md-5">
           <div class="d-flex justify-content-center">
             <h1 class="display-4">Henry Hartzler</h1>
           </div>
@@ -58,7 +58,7 @@
           </div>
         </div>
         <!--HERE-->
-        <div class="col">
+        <div class="col mb-5 my-md-5">
           <!--Opening mountain animation sequence-->
           <!--Mountains are static, clouds go across at different speeds in a linear fashion, and the sun goes up and down behind, aligned with the bg color fading according to time of day-->
           <div class="opening_animation">
@@ -80,7 +80,7 @@
     </div>
   </main>
   <section id="about">
-    <div class="container">
+    <div class="container py-5">
       <div class="row">
         <div class="col-5">
           <img src="./resources/images/profilepic.jpeg" alt="profile picture" class="img-fluid" id="profile_pic">
@@ -103,19 +103,37 @@
     </div>
   </section>
   <article id="portfolio">
-    <div class="container">
+    <div class="container my-5">
       <h2 id="portfolio-header" class="display-4">PORTFOLIO</h2>
       <hr>
-      <div class="card-deck r1">
-        <div class="card">
-          <img src="./resources/images/film_finder.png" class="card-img-top" alt="film finder fetch api requests project">
+      <div class="card-deck mt-5 r1">
+        <div class="card py-3">
+          <img src="./resources/images/office-building.png" class="card-img-top" alt="adhoc company website bootstrap project">
+          <div class="card-body">
+            <h5 class="card-title">Adhoc Company Website</h5>
+            <p class="card-text">Create a responsive company website using the Bootstrap library, according to the design specifications provided.</p>
+            <a href="https://github.com/henry-hartzler/ADHOC_Company_Website" class="btn btn-primary">View on GitHub</a>
+          </div>
+        </div>
+        <div class="card py-3">
+          <img src="./resources/images/film_finder.png" class="card-img-top whiteBackground" alt="film finder fetch api requests project">
           <div class="card-body">
             <h5 class="card-title">Film Finder</h5>
             <p class="card-text">Discover the latest films sorted by genre using JavaScript to make requests to The Movie Database API.</p>
             <a href="https://github.com/henry-hartzler/film_finder" class="btn btn-primary">View on GitHub</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card py-3">
+          <img src="./resources/images/robot.png" class="card-img-top" alt="chore door javascript dom manipulation project">
+          <div class="card-body">
+            <h5 class="card-title">Chore Door</h5>
+            <p class="card-text">Attempt to select the door with the chore robot last in this interactive game showcasing JavaScript DOM manipulation.</p>
+            <a href="https://github.com/henry-hartzler/chore-door" class="btn btn-primary">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck r2">
+        <div class="card py-3">
           <img src="./resources/images/factorial_feature.png" class="card-img-top" alt="factorial feature mocha testing TDD project">
           <div class="card-body">
             <h5 class="card-title">Factorial Feature</h5>
@@ -123,7 +141,7 @@
             <a href="https://github.com/henry-hartzler/factorial-feature" class="btn btn-primary">View on GitHub</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card py-3">
           <img src="./resources/images/rooster.png" class="card-img-top" alt="rooster regulation mocha testing project">
           <div class="card-body">
             <h5 class="card-title">Rooster Regulation</h5>
@@ -131,30 +149,12 @@
             <a href="https://github.com/henry-hartzler/rooster-regulation" class="btn btn-primary">View on GitHub</a>
           </div>
         </div>
-      </div>
-      <div class="card-deck r2">
-        <div class="card">
-          <img src="./resources/images/credit_card.png" class="card-img-top" alt="credit card checker project">
-          <div class="card-body">
-            <h5 class="card-title">Credit Card Checker</h5>
-            <p class="card-text">Verify the validity of credit card numbers with the Luhn algorithm. Then, sort through random arrays of numbers to check their validity and match them to their corresponding company.</p>
-            <a href="https://github.com/henry-hartzler/credit-card-checker" class="btn btn-primary">View on GitHub</a>
-          </div>
-        </div>
-        <div class="card">
+        <div class="card py-3">
           <img src="./resources/images/mixed_messages.png" class="card-img-top" alt="mixed messages javascript project">
           <div class="card-body">
             <h5 class="card-title">Mixed Messages</h5>
-            <p class="card-text">Discover your daily horoscope based on your astrology sign, the orientation of the planets, and their moons. A word of caution, these predictions may be mixed up due to random indexes sorting through Javascript arrays!</p>
+            <p class="card-text">Discover your daily horoscope based on your astrology sign, the orientation of the planets, and their moons. Uses random indexes sorting through Javascript arrays!</p>
             <a href="https://github.com/henry-hartzler/mixed_messages" class="btn btn-primary">View on GitHub</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./resources/images/tea_cozy.png" class="card-img-top" alt="tea cozy project">
-          <div class="card-body">
-            <h5 class="card-title">Tea Cozy Website</h5>
-            <p class="card-text">Immerse yourself in the satisfying bliss of artisinally crafted teas in this responsive Flexbox website.</p>
-            <a href="https://github.com/henry-hartzler/Tea_Cozy" class="btn btn-primary">View on GitHub</a>
           </div>
         </div>
       </div>
