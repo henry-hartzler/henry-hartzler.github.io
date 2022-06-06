@@ -37,9 +37,9 @@ section {
 */
 
 
-/*h1, h2, h4, h5 {
+h1, h2, h4, h5 {
     text-align: center;
-}*/
+}
 
 h4, h5 {
     line-height: 2em;
