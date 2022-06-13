@@ -26,3 +26,11 @@
 .footer-logos img {
     margin: 0 30px;
 }
+
+.footer-logos img:hover {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
