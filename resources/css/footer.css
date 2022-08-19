@@ -12,8 +12,8 @@
     text-decoration: underline;
     text-decoration-style: wavy;
     -moz-text-decoration-style: wavy;
-    text-decoration-color: cornflowerblue;
-    -moz-text-decoration-color: cornflowerblue;
+    text-decoration-color: cyan;
+    -moz-text-decoration-color: cyan;
 }
 
 .contact-link:hover {
