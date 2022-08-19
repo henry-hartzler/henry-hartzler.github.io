@@ -4,6 +4,7 @@ html {
 
 body {
     z-index: 5;
+    overflow: hidden;
 }
 
 nav {
