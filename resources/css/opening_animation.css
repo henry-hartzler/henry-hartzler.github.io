@@ -158,7 +158,7 @@ nav {
         align-items: center;
     } 
 }
-  @media only screen and (max-width: 1200px) and (min-width: 993px), (orientation: portrait) {
+  @media only screen and (max-width: 1200px) and (min-width: 992px), (orientation: portrait) {
     .row {
         flex-direction: column;
         justify-content: center;
