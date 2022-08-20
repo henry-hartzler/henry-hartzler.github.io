@@ -7,11 +7,6 @@ body {
     overflow: hidden;
 }
 
-nav {
-    z-index: 5;
-    background-color: midnightblue;
-}
-
 .nav-item {
     font-size: 22px;
 }
@@ -20,12 +15,12 @@ nav {
     margin: 20px 0px;
 } */
 .line-gradient {
-    background-image: linear-gradient(midnightblue, lightgrey);
+    background-image: linear-gradient(darkgreen, lightgrey);
 }
-.jumbotron {
+/* .jumbotron {
     z-index: 5;
     height: 261.5px;
-}
+} */
 
 .opening_animation {
     background-color: cyan;
