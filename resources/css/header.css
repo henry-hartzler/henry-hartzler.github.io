@@ -9,3 +9,26 @@ header {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+header h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 4rem;
+}
+
+@media (min-width: 576px), (orientation: landscape) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 6.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 8rem;
+  }
+}

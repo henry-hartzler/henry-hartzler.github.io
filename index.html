@@ -7,6 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="./resources/css/opening_animation.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/about.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/portfolio.css" type="text/css">
@@ -46,12 +49,12 @@
   </nav>
   <!-- End of navbar component -->
 
-  <header id="home" class="m-0 jumbotron jumbotron-fluid d-flex align-items-center">
-    <div class="container">
+  <header id="home" class="m-0 jumbotron jumbotron-fluid header-head">
+    <div class="container mt-5">
       <div class="row">
         <div class="col">
-          <h1 class="text-white display-1">
-            <a href="" class="typewrite text-white" data-period="2000" data-type='[ "Hi, Im Henry.", "I Enjoy Developing Websites.", "I Love Problem Solving.", "Algorithm Scripting Brings Me Joy." ]'>
+          <h1 class="text-white">
+            <a class="typewrite text-white" data-period="2000" data-type='[ "Hi, I&#x27m Henry.", "I&#x27m a Software Developer.", "I Love Solving Problems.", "Creating Apps Brings Me Joy." ]'>
               <span class="wrap"></span>
             </a>
           </h1>
@@ -70,14 +73,17 @@
           <h2 class="display-4">ABOUT</h2>
           <hr>
           <h4>
-            I'm a front-end developer based out of Salt Lake City, with a keen eye for engaging UI and attractive, responsive designs. 
-            <br>
-            As an educator, I value community input, and am committed to building websites and applications
-            that help our businesses rise up and stand out.
-          </h4>
-          <hr>
-          <h5>
-            Outside of work, you can find me climbing in Little Cottonwood Canyon, biking in Moab, or out skiing on a powder day.
+            I'm a front-end developer based out of Salt Lake City.
+            <span class="d-none d-sm-block"> I specialize in engaging UI and attractive, responsive designs. 
+              <br>
+                As an educator, I value community input, and am committed to building websites and applications
+                that help our businesses rise up and stand out.</span>
+              </h4>
+              <span class="d-none d-sm-block">
+              <hr>
+              <h5>
+              Outside of work, you can find me climbing in Little Cottonwood Canyon, biking in Moab, or out skiing on a powder day.</h5>
+            </span>
           </h5>
         </div>
       </div>
@@ -142,7 +148,7 @@
     </div>
   </article>
   <footer id="contact">
-      <div class="container footer-container line-gradient text-white">
+      <div class="container footer-container text-white">
         <h2 class="display-4">Looking to work with me?</h2>
         <p class="lead d-flex justify-content-center">Send me a message and&nbsp <span><a class="contact-link" href="https://www.linkedin.com/in/henry-hartzler/">let's chat</a></span>.</p>
         <div class="footer-logos d-flex justify-content-center">
