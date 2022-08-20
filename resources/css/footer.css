@@ -1,3 +1,14 @@
+footer {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/LCC.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 .footer-container {
     max-width: 100%;
     padding: 10px;
@@ -10,27 +21,25 @@
 .contact-link {
     color: inherit;
     text-decoration: underline;
-    text-decoration-style: wavy;
-    -moz-text-decoration-style: wavy;
-    text-decoration-color: cyan;
-    -moz-text-decoration-color: cyan;
+    text-decoration-color: white;
+    -moz-text-decoration-color: white;
 }
 
 .contact-link:hover {
-    color: white;
-    background-color: #0069D9;
+    color: black;
+    background-color: white;
     text-decoration: none;
     padding: 5px;
 }
 
-.footer-logos img {
+/* .footer-logos a {
     margin: 0 30px;
 }
 
-.footer-logos img:hover {
+.footer-logos a:hover {
     transform: scale(1.15);
     -webkit-transform: scale(1.15);
     -moz-transform: scale(1.15);
     -ms-transform: scale(1.15);
     -o-transform: scale(1.15);
-}
+} */

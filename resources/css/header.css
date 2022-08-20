@@ -1,0 +1,47 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  z-index: 5;
+  overflow: hidden;
+}
+
+.nav-item {
+  font-size: 22px;
+}
+
+header {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/LCC.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 4rem;
+}
+
+@media (min-width: 576px), (orientation: landscape) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 6.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 8rem;
+  }
+}
