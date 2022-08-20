@@ -1,3 +1,16 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  z-index: 5;
+  overflow: hidden;
+}
+
+.nav-item {
+  font-size: 22px;
+}
+
 header {
     background: 
     linear-gradient(
