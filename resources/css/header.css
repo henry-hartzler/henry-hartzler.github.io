@@ -46,14 +46,14 @@ header h1 {
   }
 }
 
-@media (min-width: 576px) and (max-height: 450px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) and (max-height: 800px) and (orientation: landscape) {
   header h1 {
-    font-size: 3rem;
+    font-size: 6.5rem;
   }
 }
 
-@media (min-width: 768px) and (max-height: 800px) and (orientation: landscape) {
+@media (min-width: 576px) and (max-height: 450px) and (orientation: landscape) {
   header h1 {
-    font-size: 6.5rem;
+    font-size: 3rem;
   }
 }
