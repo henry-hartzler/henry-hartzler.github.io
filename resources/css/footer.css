@@ -25,17 +25,11 @@ footer {
     -moz-text-decoration-color: white;
 }
 
-.contact-link:hover {
+.contact-link:hover, .contact-link:active {
     color: black;
     background-color: white;
     text-decoration: none;
     padding: 5px;
 }
 
-.footer-logos:hover {
-    transform: scale(1.15);
-            -webkit-transform: scale(1.15);
-            -moz-transform: scale(1.15);
-            -ms-transform: scale(1.15);
-            -o-transform: scale(1.15);
-}
+/* Footer-logos linked in portfolio.css media query */
