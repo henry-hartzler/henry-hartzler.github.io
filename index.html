@@ -19,9 +19,9 @@
 
     <title>Henry Hartzler, Software Developer</title>
   </head>
-  <body>
+  <body class="bg-light">
     <!-- Navbar Component but sticky top isnt working -->
-  <nav class="navbar navbar-light bg-light navbar-expand-sm sticky-top">
+  <nav class="navbar sticky-top navbar-light bg-light navbar-expand-sm">
     <a class="navbar-brand" href="#">
       <img src="./resources/images/new-logo-light.png" alt="Henry Hartzler Software Developer Logo" width="90">
     </a>
@@ -68,17 +68,16 @@
       <!--Consider changing it to col-lg-5 and then updating the media queries in the header css to break at 992(lg)-->
       <div class="row p-3 py-md-5">
         <div class="col-lg-5 d-flex justify-content-center">
-          <img src="./resources/images/profilepic.jpeg" alt="profile picture" class="img-fluid" id="profile_pic">
+          <img src="./resources/images/profilepic.jpeg" alt="profile picture" class="img-fluid m-5" id="profile_pic">
         </div>
-        <div class="col-lg">
+        <div class="col-lg px-3">
           <h2 class="display-4">ABOUT</h2>
           <hr>
           <h4>
-            I'm a front-end developer based out of Salt Lake City.
-            <span class="d-none d-sm-block"> I specialize in engaging UI and attractive, responsive designs. 
+            I'm a full-stack web + mobile developer based out of Salt Lake City.
+            <span class="d-none d-sm-block"> I specialize in creating attractive and responsive user interfaces. 
               <br>
-                As an educator, I value community input, and am committed to building websites and applications
-                that help our businesses rise up and stand out.</span>
+                As an educator, I am committed to building applications that provide equitable access to quality education for all students.</span>
               </h4>
               <span class="d-none d-sm-block">
               <hr>
@@ -94,9 +93,9 @@
     <div class="container my-5">
       <h2 id="portfolio-header" class="display-4">PORTFOLIO</h2>
       <hr>
-      <div class="card-deck mt-5 r1">
+      <div class="card-deck mt-5 r1 d-none d-lg-flex">
         <div class="card py-3">
-          <img src="./resources/images/headphones.png" class="card-img-top" alt="adhoc company website bootstrap project">
+          <img src="./resources/images/headphones.png" class="card-img-top" alt="react project">
           <div class="card-body">
             <h5 class="card-title">Beats Bayou</h5>
             <p class="card-text">Create custom playlists with this React application, which utilizes the Spotify API.</p>
@@ -104,11 +103,11 @@
           </div>
         </div>
         <div class="card py-3">
-          <img src="./resources/images/film_finder.png" class="card-img-top whiteBackground" alt="film finder fetch api requests project">
+          <img src="./resources/images/5.svg" class="card-img-top" alt="fresh start lms project">
           <div class="card-body">
-            <h5 class="card-title">Film Finder</h5>
-            <p class="card-text">Discover the latest films sorted by genre using JavaScript to make requests to The Movie Database API.</p>
-            <a href="https://hartzler-film-finder.netlify.app/" class="btn btn-primary">View on Netlify</a>
+            <h5 class="card-title">Fresh Start</h5>
+            <p class="card-text">Ongoing portfolio project for a learning management system that awards students for exceptional work.</p>
+            <a href="https://fresh-start-lms.netlify.app/" class="btn btn-primary">View on Netlify</a>
           </div>
         </div>
         <div class="card py-3">
@@ -120,21 +119,79 @@
           </div>
         </div>
       </div>
+      <div id="carouselExampleIndicators" class="carousel slide d-lg-none" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card py-3">
+              <img src="./resources/images/headphones.png" class="card-img-top" alt="react project">
+              <div class="card-body my-3">
+                <h5 class="card-title">Beats Bayou</h5>
+                <p class="card-text">Create custom playlists with this React application, which utilizes the Spotify API.</p>
+                <a href="https://hartzler-spotify-playlist.netlify.app/" class="btn btn-primary">View on Netlify</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card py-3">
+              <img src="./resources/images/5.svg" class="card-img-top" alt="fresh start lms project">
+              <div class="card-body my-3">
+                <h5 class="card-title">Fresh Start</h5>
+                <p class="card-text">Ongoing portfolio project for a learning management system that awards students for exceptional work.</p>
+                <a href="https://fresh-start-lms.netlify.app/" class="btn btn-primary">View on Netlify</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card py-3">
+              <img src="./resources/images/robot.png" class="card-img-top" alt="chore door javascript dom manipulation project">
+              <div class="card-body my-3">
+                <h5 class="card-title">Chore Door</h5>
+                <p class="card-text">Attempt to select the door with the chore robot last in this interactive game showcasing JavaScript DOM manipulation.</p>
+                <a href="https://hartzler-chore-door.netlify.app/" class="btn btn-primary">View on Netlify</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card py-3">
+              <img src="./resources/images/film_finder.png" class="card-img-top" alt="film finder fetch api requests project">
+              <div class="card-body my-3">
+                <h5 class="card-title">Film Finder</h5>
+                <p class="card-text">Discover the latest films sorted by genre using JavaScript to make requests to The Movie Database API.</p>
+                <a href="https://hartzler-film-finder.netlify.app/" class="btn btn-primary">View on Netlify</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
   </article>
   <footer id="contact">
-      <div class="container footer-container text-white">
+      <div class="container footer-container text-white py-3">
         <h2 class="display-4">Looking to work with me?</h2>
         <p class="lead d-flex justify-content-center">Send me a message and&nbsp <span><a class="contact-link" href="https://www.linkedin.com/in/henry-hartzler/">let's chat</a></span>.</p>
         <ul class="nav justify-content-center">
           <li class="nav-item py-2 px-4">
-            <a href="https://github.com/henry-hartzler""><i class="fa fa-brands fa-github text-white fa-3x"></i></a>
+            <a href="https://github.com/henry-hartzler"><i class="footer-logos fa fa-brands fa-github text-white fa-3x"></i></a>
           </li>
           <li class="nav-item py-2 px-4">
-            <a href="https://www.linkedin.com/in/henry-hartzler/"><i class="fa fa-brands fa-linkedin text-white fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/henry-hartzler/"><i class="footer-logos fa fa-brands fa-linkedin text-white fa-3x"></i></a>
           </li>
           <li class="nav-item py-2 px-4">
-            <a href="mailto: hartzler.henry@gmail.com"><i class="fa fa-brands fa-envelope text-white fa-3x"></i></a>
+            <a href="mailto: hartzler.henry@gmail.com"><i class="footer-logos fa fa-brands fa-envelope text-white fa-3x"></i></a>
           </li>
         </ul>
       </div>

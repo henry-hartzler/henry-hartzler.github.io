@@ -11,6 +11,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: darkgreen;
+    color: #f5f5f5;
 }
 
 .card img {
@@ -19,7 +21,7 @@
     padding: 10px;
 }
 
-.card:hover {
+/* .card:hover {
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
@@ -27,4 +29,20 @@
     -o-transform: scale(1.05);
     color: #f5f5f5;
     background-color: darkgreen;
-}
+} */
+
+@media (min-width: 992px) {
+    .card {
+        color: black;
+        background-color:white;
+    }
+    .card:hover {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        color: #f5f5f5;
+        background-color: darkgreen;
+    }
+  }
