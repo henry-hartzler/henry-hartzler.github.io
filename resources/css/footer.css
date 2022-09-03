@@ -32,14 +32,10 @@ footer {
     padding: 5px;
 }
 
-/* .footer-logos a {
-    margin: 0 30px;
-}
-
-.footer-logos a:hover {
+.footer-logos:hover {
     transform: scale(1.15);
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    -o-transform: scale(1.15);
-} */
+            -webkit-transform: scale(1.15);
+            -moz-transform: scale(1.15);
+            -ms-transform: scale(1.15);
+            -o-transform: scale(1.15);
+}
