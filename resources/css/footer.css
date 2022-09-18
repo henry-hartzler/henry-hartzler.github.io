@@ -30,6 +30,11 @@ footer {
     background-color: white;
     text-decoration: none;
     padding: 5px;
+    transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -o-transform: scale(0.95);
 }
 
 /* Footer-logos linked in portfolio.css media query */
