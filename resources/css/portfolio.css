@@ -24,22 +24,21 @@
   filter: invert(1);
 }
 
+/* Add keyframes in the future? */
 @media (min-width: 992px) {
     .card:hover {
-        transform: scale(1.05);
-        -webkit-transform: scale(1.05);
-        -moz-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        -o-transform: scale(1.05);
-        color: #f5f5f5;
-        background-color: darkgreen;
-    }
+        transform: scale(0.97);
+        -webkit-transform: scale(0.97);
+        -moz-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+        -o-transform: scale(0.97);
+}
     
     .footer-logos:hover {
-        transform: scale(1.15);
-                -webkit-transform: scale(1.15);
-                -moz-transform: scale(1.15);
-                -ms-transform: scale(1.15);
-                -o-transform: scale(1.15);
-    }
+        transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -o-transform: scale(0.95);
+}
   }
