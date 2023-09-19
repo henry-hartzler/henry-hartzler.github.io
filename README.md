@@ -1,7 +1,7 @@
 # Henry Hartzler, Software Developer
 
 ## Portfolio Website
-+ This website showcases my keen attention to detail, mastery in JavaScript, and expertise in both responsive web design.
++ This website showcases my keen attention to detail, mastery in JavaScript, and expertise in responsive web design.
 
 ## What I'm working on:
 + I currently work full-time as a software engineer and will be beginning to pursue my Masters in Computer Science shortly.
