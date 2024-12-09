@@ -1,9 +1,18 @@
-# Henry Hartzler, Software Developer
+![developerbdackground](https://user-images.githubusercontent.com/96813969/196090532-4b38aa1f-973b-4022-a810-3e29667c86c0.png)
+## Hey there! I'm Henry, a Software Engineer :computer:
 
-## Portfolio Website
-+ This website showcases my keen attention to detail, mastery in JavaScript, and expertise in responsive web design.
+🎓 I'm currently working on my Master of Science in Data Science at Eastern University. 
 
-## What I'm working on:
-+ I currently work full-time as a software engineer and will be beginning to pursue my Masters in Computer Science shortly.
-+ In my free time, I am currently upskilling in C# best practices as it, along with Typescript, are the primary langauges I use at my current position.
-+ On the side, I occassionally tinker with personal projects for friends or work on making clones of popular games, such as Wordle.
+🌱 I’m currently learning Python for Data Science with an emphasis on Machine Learning and Natural Language Processing.
+    
+🎓 Previously, I graduated with Honors from Nucamp Coding Bootcamp's Full Stack Web + Mobile Development Program with a focus in React, React Native, Node.js, Express, and MongoDB.
+
+🔭 Additionally, I'm learning best practices for TypeScript, C#, and MSSQL Server for my current job as a Software Engineer.
+
+📱 Using React Native, I built a clone of the popular climbing app, Kaya, that serves as both a guide and logbook.
+
+⚡ Fun fact: Before switching careers, I was a 4th-5th grade educator in a Dual-Language program (English / Spanish).
+
+💬 Ask me about my passion for open source and my aspirations to ensure that everyone has access to an engaging and quality education.
+
+📫 Message me on LinkedIn to learn more!
